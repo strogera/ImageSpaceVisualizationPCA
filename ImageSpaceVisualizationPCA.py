@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 
 imageMaxSizeX=100
 imageMaxSizeY=100
+
 def loadImagesForPCA(path):
     if not os.path.exists(path):
         print("Path Error\nInvalid Path: %s"%path)
